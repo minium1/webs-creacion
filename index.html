@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mikos</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="icon" href="img/logo miko ico.ico">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+
+                <div class="four columns">
+                    <img src="img/logo.png" alt="" id="logo">
+                </div>
+
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <img src="img/cart.png" alt="" id="img-carrito">
+                            <div id="carrito">
+                                <table id="lista-carrito" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                                <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="four columns">
+                        <ul class="navct">
+                            <li class="four columns "><a href="#">Inicio</a></li>
+                            <li class="four columns "><a href="#">Sobre</a></li>
+                            <li class="four columns "><a href="#">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </header>
+
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="six columns">
+                    <div class="contenido-hero">
+                        <h2>Pide tu orden</h2>
+                        <p>Todo el menu a buen precio</p>
+                        <form action="#" id="busqueda" method="post" class="formulario">
+                            <input class="u-full-width" type="text" 
+                            placeholder="Que te gustaria comprar"
+                            id="buscador"
+                            >
+                            <input type="submit" id="submit-buscador" class="submit-buscador">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icono icono1">
+                    <p>Hubicados en Santa marta<br>
+                        Explora los sabores mas recientes
+                    </p>
+                </div>
+                <div class="four columns icono icono2">
+                    <p>Prueba nuestro amplio menu<br>
+                        Explora los distintos sabores 
+                    </p>
+                </div>
+                <div class="four columns icono icono3">
+                    <p>Ven a conocernos<br>
+                        Atencion inmediata
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="lista-cafe" class="container">
+        <h1 id="encabezado" class="encabezado">Pedidos en linea</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/arroz.jpg" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Arroz</h4>
+                        <p>Aveces te sientes cansado de acompañar el almuerzo con algún grano</p>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">$8.000 <span class="u-pull-right">$9,000</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        ">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/pecadito.jpg" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Pescado</h4>
+                        <p>Deliciosos pescados frescos, siente el mar en cada bocado</p>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">15.000$ <span class="u-pull-right">14.000$</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        ">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/brownie.jpg" class="u-full-width">
+                    <div class="info-card">
+                        <h4>brownie</h4>
+                        <p>Riquísimos brownie calientes</p>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">10.000$ <span class="u-pull-right">9.000$</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        ">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div><!--.row-->
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/waflecito.jpg" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Walfles</h4>
+                        <p>Walfles echos con amor</p>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">6.800$ <span class="u-pull-right">6.000$</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        ">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/hamburgesa.jpg" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesas de cerdo</h4>
+                        <p>Todas las hamburguesas vienen con papas fritas</p>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">11.000$ <span class="u-pull-right">10.000$</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        ">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/hamburguesapollo.jpg" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburgesa de pollo</h4>
+                        <p>Todas las hamburguesas vienen con papas fritas</p>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">9.000$ <span class="u-pull-right">8.000$</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        ">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div><!--.row-->
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/hamburgesa de res.jpg" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburgesa de res</h4>
+                        <p>Por 500 pesos extra puedes agregar un huevo frito o agrandar las papas</p>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">14.000$ <span class="u-pull-right">12.000$</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        ">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/wafles con tocino.jpg" class="u-full-width">
+                    <div class="info-card">
+                        <h4>walfles con huevo y tozino</h4>
+                        <p>Prueba nuestros deliciosos walfles para tus desayunos</p>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">13.000$ <span class="u-pull-right">12.000$</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        ">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/wafles con tocino.jpg" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Walfles vegetariano</h4>
+                        <p>Prueba nuestros deliciosos walfles vegetarianos</p>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">14.000$ <span class="u-pull-right">12.000$</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        ">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div><!--.row-->
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/cafecito.jpg" class="u-full-width">
+                    <div class="info-card">
+                        <h4>cafés con leche y tostadas chico</h4>
+                        <p>Desayuna con nuestros cafés con leche acompañado de tostadas</p>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">2.500$ <span class="u-pull-right">2.000$</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        ">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/cafecito 2.jpg" class="u-full-width">
+                    <div class="info-card">
+                        <h4>cafés con leche y tostadas grande</h4>
+                        <p>Desayuna con nuestros cafés con leche acompañado de tostadas</p>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">3.500$ <span class="u-pull-right">3.000$</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        ">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/copa de fresa.jpg" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Cafe con leche</h4>
+                        <p>Marca nesca</p>
+                        <img src="img/estrellas.png" >
+                        <p class="precio">6.000$ <span class="u-pull-right">5.000$</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        ">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div><!--.row-->
+    </div>
+
+    <footer id="contacto" class="footer"> 
+        <div class="container footer-content">
+           <div class="contact-us">
+               <h2 class="brand">Mikos asados y helados</h2>
+               <p>Ven y prueba nuestros delicosos almuerzos</p> 
+           </div>
+           <div class="social-media">
+               <a href="./" class="social-media-icon">
+               <i class='bx bxl-facebook'></i>
+               </a>
+               <a href="./" class="social-media-icon">
+                <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-twitter'></i>
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-whatsapp'></i>
+                        </a>    
+           </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+
+
+    <script src="js/app.js"></script>
+</body>
+</html>
